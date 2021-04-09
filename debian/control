@@ -1,0 +1,28 @@
+Source: qt5-qpa-hwcomposer-plugin
+Section: libs
+Maintainer: Erik Inkinen <erik.inkinen@gmail.com>
+Priority: optional
+Build-Depends: pkg-kde-tools,
+               qt5-qmake,
+               qtbase5-private-gles-dev,
+               qtbase5-gles-dev,
+               qtwayland5-private-dev,
+               qtdeclarative5-private-dev,
+               libqt5quick5-gles,
+               libqt5gui5-gles,
+               android-headers,
+               libhybris-dev,
+               pkg-config,
+               libudev-dev,
+               libglib2.0-dev,
+               libmtdev-dev,
+               libwayland-server0,
+               libwayland-dev
+Standards-Version: 4.5.1
+
+Package: qt5-qpa-hwcomposer-plugin
+Architecture: any
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+
