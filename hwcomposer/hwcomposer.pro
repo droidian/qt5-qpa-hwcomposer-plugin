@@ -74,6 +74,7 @@ qtCompileTest(hwcomposer2) {
 
 # Avoid X11 header collision
 DEFINES += MESA_EGL_NO_X11_HEADERS
+DEFINES += EGL_NO_X11
 
 SOURCES +=  $$PWD/qeglfsintegration.cpp \
             $$PWD/qeglfswindow.cpp \
