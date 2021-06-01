@@ -25,4 +25,5 @@ Architecture: any
 Multi-Arch: foreign
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-
+Description: This package contains a Qt 5 QPA plugin using libhybris' Droid
+ hwcomposer for composing content onto the screen.
